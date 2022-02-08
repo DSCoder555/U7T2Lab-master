@@ -12,7 +12,8 @@ public class AnotherRunner {
         Car car1 = new Car("Honda", 200);
         Car car2 = new Car("Highlander", 3000);
         Car car3 = new Car("Batmobile", 12000);
-        Car[] carsArray = {car1, car2, car3};
+        Car car4 = new Car("Jeep", 50000);
+        Car[] carsArray = {car1, car2, car3, car4};
         ArrayList<Car> carList = new ArrayList<Car>(Arrays.asList(carsArray));
         System.out.println(carList);
     }
